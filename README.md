@@ -1,1 +1,1 @@
-Curso de python b
+Curso de python básico.
