@@ -3,10 +3,10 @@
 # após isso irá imprimir todos os nomes da lista.
 
 lista_nome = []
-quant = print(int(input('Informe a quantidade de convidados : \n')))
+quant = int(input('Informe a quantidade de convidados : \n'))
 
 for i in range(quant):
-    nome = print(input('Informe o seu nome:'))
+    nome = input('Informe o seu nome:')
     lista_nome.append(nome)
 
 print(lista_nome)
