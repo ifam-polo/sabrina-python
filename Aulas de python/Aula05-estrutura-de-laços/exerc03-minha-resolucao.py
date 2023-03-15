@@ -6,9 +6,13 @@ lista_nome = []
 quant = int(input('Informe a quantidade de convidados : \n'))
 
 for i in range(quant):
-    nome = input('Informe o seu nome:')
+    nome = input(f'Nome do convidado {i+1} : ')
     lista_nome.append(nome)
 
-print(lista_nome)
+print('Lista de convidados: ')
+for convidados in lista_nome:
+    print(convidados)
+
+
 
 
