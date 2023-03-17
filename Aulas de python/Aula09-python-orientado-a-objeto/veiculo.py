@@ -5,3 +5,5 @@ class Veiculo:
         self.marca = marca
         self.tanque = tanque
 
+    def abastecer(self, litros):
+        self.tanque += litros
