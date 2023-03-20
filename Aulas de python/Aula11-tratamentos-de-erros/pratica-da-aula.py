@@ -2,7 +2,7 @@ import time
 
 def abre_arquivo():
     try:
-        arquivo = open('teste.txt')
+        open('teste.txt')
         return True
     except Exception as erro:
         print("Aconteceu algum erro: ", erro)
