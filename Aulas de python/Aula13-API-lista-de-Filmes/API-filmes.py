@@ -4,7 +4,7 @@ import json
 def requisicao(titulo):
     try:
         req = requests.get(" http://www.omdbapi.com/?apikey=eb931693&t=" + titulo)
-        dic = json.loads(req.text) # transforma o conteúdo que está em json para forma de dicionario;
+        dic = json.loads(req.text) # transforma o conteúdo  para forma de dicionario;
         return dic
     except:
         print('Erro na conexão')
